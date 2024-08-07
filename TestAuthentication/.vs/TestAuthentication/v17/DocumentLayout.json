@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|d:\\githubpersonal\\learntest\\testauthentication\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|solutionrelative:controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|d:\\githubpersonal\\learntest\\testauthentication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|d:\\githubpersonal\\learntest\\testauthentication\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|solutionrelative:models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|d:\\githubpersonal\\learntest\\testauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|d:\\githubpersonal\\learntest\\testauthentication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53DB0933-F07F-4482-9504-F58BF543D95C}|TestAuthentication.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestModel.cs",
+              "DocumentMoniker": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Models\\TestModel.cs",
+              "RelativeDocumentMoniker": "Models\\TestModel.cs",
+              "ToolTip": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Models\\TestModel.cs",
+              "RelativeToolTip": "Models\\TestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T10:04:53.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiController.cs",
+              "ToolTip": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwC0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T10:04:20.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T10:03:41.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T09:02:43.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubPersonal\\LearnTest\\TestAuthentication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:02:33.537Z",
+              "EditorCaption": ""
             }
           ]
         }
