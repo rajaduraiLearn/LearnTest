@@ -65,6 +65,7 @@ namespace TestAuthentication.Controllers
         public ActionResult VerifyPermission()
         {
             var authHeader = Request.Headers["Authorization"];
+            ResponseInfo responseInfo = new ResponseInfo();
 
             if (authHeader != null && authHeader.StartsWith("Bearer "))
             {
@@ -101,42 +102,38 @@ namespace TestAuthentication.Controllers
                     if (allowedIds.Contains(appIdClaim))
                     {
                         // Token is valid and the managed identity is allowed
-                        var responseInfo = new
-                        {
-                            AppId = appIdClaim,
-                            Success = true
-                        };
+                        responseInfo.AppId = appIdClaim;
+                        responseInfo.Success = true;
+                        responseInfo.Message = "Appid Matched, Header exists";
 
                         return Json(responseInfo);
                     }
                     else
                     {
-                        var errorInfo = new
-                        {
-                            message = "appIdClaim is not valid"
-                        };
+                        responseInfo.AppId = appIdClaim;
+                        responseInfo.Success = false;
+                        responseInfo.Message = "Appid did not match expected";
 
-                        return Json(errorInfo);
+                        return Json(responseInfo);
                     }
                 }
                 catch (SecurityTokenValidationException ex)
                 {
-                    var errorInfo = new
-                    {
-                        message = $"Exception  {ex.Message}"
-                    };
+                    responseInfo.AppId = "N/A";
+                    responseInfo.Success = false;
+                    responseInfo.Message = $"Excepton: {ex.Message}";
 
-                    return Json(errorInfo);
+                    return Json(responseInfo);
                 }
             }
             else
             {
-                var errorInfo = new
-                {
-                    message = "Auth Header not found"
-                };
+                responseInfo.AppId = "N/A";
+                responseInfo.Success = false;
+                responseInfo.Message = $"Auth Header Not found";
 
-                return Json(errorInfo);
+
+                return Json(responseInfo);
             }
         }
 
@@ -148,5 +145,15 @@ namespace TestAuthentication.Controllers
             var openIdConfig = configurationManager.GetConfigurationAsync().Result;
             return openIdConfig.SigningKeys;
         }
+    }
+
+    public class ResponseInfo
+    { 
+        public string AppId { get; set; }
+
+        public bool Success { get; set; }
+
+        public string Message { get; set; }
+
     }
 }
